@@ -1,0 +1,12 @@
+.col{
+    width: 100%;
+    border-top: 0.2px solid rgb(0, 0, 0);
+    padding-top: 1%;
+}
+  
+.td:nth-child(2n-1) {
+    background-color: #b9ccee; /* or any other color */
+}
+.td:nth-child(2n) {
+    background-color: #ebece2; /* or any other color */
+}

@@ -1,0 +1,51 @@
+>>>> things to do 
+
+>> MAKE THE TIME COMPONENT BETTER
+>> START WORKING ON FLAGS
+>> undetand the new api better.
+>> make sure only the failed transaction comes pre compute the whole data such that only real time failed transactions are recorded.
+
+>>>> THOUGHTS
+
+>> AS SOON AS THE BROWSER LOADS , CALL THE APIS , MAKE THE CALCULATIONS ON ENTIRE DB'S , AND BRING OUT THE DATA FOR FOR THE GIVEN RANGE.
+>> DUCTIONARY KA IDEA WORKS SOLID LES GOOOOOO BISHHH
+
+
+
+>>>> TYPE OF ERRORS
+
+>> CRYPTO_GAS_FAILED
+>> 12 HRS BTW C_INIT AND C_COMPLETED  OR FIAT_INIT AND FIAT_COMPLETED.
+>> FIAT_FAILED
+>> CRYPTO_FAILED
+>> KYC_ERROR
+>>
+
+
+>>>> UNIQUE ( UNDERSTAND WHY THEY HAVE COME )
+
+>> 0xbee1c8f2868f1f4beffa494cb469305edac638ba089462af2fe5661659c580c4	 ALL_OK STATE
+>> unknown_3cc8d190-4509-43f1-a42c-86f30376dc7f   CRITICAL ERROR
+>> 
+
+
+
+
+for help section 
+
+1. you set the date and time here starting which u want to fetch the DATA
+2. you set the date and time here till which u want to fetch the DATA
+3. when u click on submit button api is fetched and logic is computed and data is rendered on dashboard.
+4. this is the section where u can set whther u want prod or pre-prod data , this status is highlighted at 11. as heading
+5. a disabled button , at right of it is the count of number of succesfull unique transactions
+6. a disabled button , at right of it is the count of number of unsuccesfull unique transactions
+7. on clicking this button db of successfull transaction ids is displayed
+8. on clicking this button db of unsuccessfull transaction ids is displayed
+9. an analysis table of why a given transaction might be wrong.
+10. just to reset the table section
+11. heading reflecting to the stage set.
+
+
+install aws cli
+command aws congifure
+
